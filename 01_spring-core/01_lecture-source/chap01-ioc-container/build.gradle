@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+}
+
+group = 'com.i5'
+version = '1.0-SNAPSHOT' //'SNAPSHOT'은 현재 개발중이라는 의미
+
+repositories { // 어디에서 외부 라이브러리를 받을것이냐는 지정한 것
+    mavenCentral()
+}
+
+dependencies { // 다운받아올 라이브러리 목록
+    implementation 'org.springframework:spring-context:6.1.6'
+    implementation 'org.springframework:spring-core:6.1.6'
+    implementation 'org.springframework:spring-beans:6.1.6'
+    implementation 'org.springframework:spring-aop:6.1.6'
+    implementation 'org.springframework:spring-expression:6.1.6'
+
+    testImplementation platform('org.junit:junit-bom:5.10.0')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+
+}
+
+test {
+    useJUnitPlatform()
+}

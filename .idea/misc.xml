@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/01_spring-core/01_lecture-source/chap01-ioc-container" />
+    <file type="web" url="file://$PROJECT_DIR$/01_spring-core/01_lecture-source/chap03-di-annotation" />
+    <file type="web" url="file://$PROJECT_DIR$/01_spring-core/01_lecture-source/chap04-bean" />
+    <file type="web" url="file://$PROJECT_DIR$/01_spring-core/02_practice/chap01-ioc-container-practice" />
+    <file type="web" url="file://$PROJECT_DIR$/01_spring-core/02_practice/chap02-dependency-injection-practice" />
+  </component>
+  <component name="ProjectRootManager">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
